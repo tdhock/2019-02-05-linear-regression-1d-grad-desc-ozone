@@ -1,0 +1,1073 @@
+{
+ "geoms": {
+ "geom1_point_regression": {
+ "geom": "point",
+"classed": "geom1_point_regression",
+"aes": {
+ "x": "temperature",
+"y": "ozone",
+"colour": "set",
+"showSelectedlegendcolour": "set" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"shape":       21,
+"fill": "transparent" 
+},
+"types": {
+ "colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"showSelectedlegendcolour": "character",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelectedlegendcolour" 
+],
+"subset_order": [
+ "showSelectedlegendcolour" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom2_abline_regression": {
+ "geom": "segment",
+"classed": "geom2_abline_regression",
+"aes": {
+ "intercept": "intercept",
+"slope": "slope",
+"key": "1",
+"showSelected1": "iteration" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"showSelected": "iteration" 
+},
+"types": {
+ "key": "numeric",
+"showSelected1": "numeric",
+"PANEL": "integer",
+"x": "numeric",
+"xend": "numeric",
+"y": "numeric",
+"yend": "numeric",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom3_contour_contours": {
+ "geom": "path",
+"classed": "geom3_contour_contours",
+"aes": {
+ "x": "intercept",
+"y": "slope",
+"z": "cost",
+"colour": "..level..",
+"group": "piece" 
+},
+"params": {
+ "lineend": "butt",
+"linejoin": "round",
+"linemitre":        1,
+"na.rm": false,
+"na.rm": false,
+"breaks": [      0.2,     0.21,     0.22,     0.23,     0.24,     0.25,     0.26,     0.27,     0.28,     0.29,      0.3,     0.31,     0.32,     0.33,     0.34,     0.35,     0.36,     0.37,     0.38,     0.39,      0.4,     0.41,     0.42,     0.43,     0.44,     0.45,     0.46,     0.47,     0.48,     0.49,      0.5,     0.51,     0.52,     0.53,     0.54,     0.55,     0.56,     0.57,     0.58,     0.59,      0.6,     0.61,     0.62,     0.63,     0.64,     0.65,     0.66,     0.67,     0.68,     0.69,      0.7,     0.71,     0.72,     0.73,     0.74,     0.75,     0.76,     0.77,     0.78,     0.79,      0.8,     0.81,     0.82,     0.83,     0.84,     0.85,     0.86,     0.87,     0.88,     0.89,      0.9,     0.91,     0.92,     0.93,     0.94,     0.95,     0.96,     0.97,     0.98,     0.99,        1 ] 
+},
+"types": {
+ "colour": "rgb",
+"order": "numeric",
+"level": "numeric",
+"x": "numeric",
+"y": "numeric",
+"piece": "integer",
+"group": "character",
+"PANEL": "integer" 
+},
+"chunk_order": [],
+"nest_order": [
+ "group" 
+],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom4_point_contours": {
+ "geom": "point",
+"classed": "geom4_point_contours",
+"aes": {
+ "x": "intercept",
+"y": "slope" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"shape":       21,
+"fill": "#FF0000" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom5_path_contours": {
+ "geom": "path",
+"classed": "geom5_path_contours",
+"aes": {
+ "x": "intercept",
+"y": "slope" 
+},
+"params": {
+ "lineend": "butt",
+"linejoin": "round",
+"linemitre":        1,
+"na.rm": false,
+"na.rm": false,
+"colour": "#7F7F7F" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom6_segment_contours": {
+ "geom": "segment",
+"classed": "geom6_segment_contours",
+"aes": {
+ "x": "intercept",
+"y": "slope",
+"key": "1",
+"xend": "intercept.end",
+"yend": "slope.end",
+"showSelected1": "iteration" 
+},
+"params": {
+ "lineend": "butt",
+"na.rm": false,
+"na.rm": false,
+"showSelected": "iteration" 
+},
+"types": {
+ "x": "numeric",
+"xend": "numeric",
+"y": "numeric",
+"yend": "numeric",
+"key": "numeric",
+"showSelected1": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom7_point_contours": {
+ "geom": "point",
+"classed": "geom7_point_contours",
+"aes": {
+ "x": "intercept",
+"y": "slope",
+"clickSelects": "iteration" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"size":        3,
+"alpha":      0.5,
+"clickSelects": "iteration" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"clickSelects": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom8_line_cost": {
+ "geom": "line",
+"classed": "geom8_line_cost",
+"aes": {
+ "x": "iteration",
+"y": "cost",
+"group": "set",
+"colour": "set",
+"showSelectedlegendcolour": "set" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false 
+},
+"types": {
+ "colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"group": "character",
+"showSelectedlegendcolour": "character",
+"PANEL": "integer" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelectedlegendcolour",
+"group" 
+],
+"subset_order": [
+ "showSelectedlegendcolour" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom9_point_cost": {
+ "geom": "point",
+"classed": "geom9_point_cost",
+"aes": {
+ "x": "iteration",
+"y": "cost",
+"colour": "set",
+"fill": "model",
+"showSelectedlegendcolour": "set",
+"showSelectedlegendfill": "model" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"shape":       21 
+},
+"types": {
+ "colour": "rgb",
+"fill": "rgb",
+"x": "numeric",
+"y": "numeric",
+"showSelectedlegendcolour": "character",
+"showSelectedlegendfill": "character",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelectedlegendcolour",
+"showSelectedlegendfill" 
+],
+"subset_order": [
+ "showSelectedlegendcolour",
+"showSelectedlegendfill" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom10_point_cost": {
+ "geom": "point",
+"classed": "geom10_point_cost",
+"aes": {
+ "x": "iteration",
+"y": "cost",
+"colour": "set",
+"fill": "model",
+"showSelectedlegendcolour": "set",
+"showSelectedlegendfill": "model" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"shape":       21 
+},
+"types": {
+ "colour": "rgb",
+"fill": "rgb",
+"x": "numeric",
+"y": "numeric",
+"showSelectedlegendcolour": "character",
+"showSelectedlegendfill": "character",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelectedlegendcolour",
+"showSelectedlegendfill" 
+],
+"subset_order": [
+ "showSelectedlegendcolour",
+"showSelectedlegendfill" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom11_tallrect_cost": {
+ "geom": "tallrect",
+"classed": "geom11_tallrect_cost",
+"aes": {
+ "xmin": "ifelse(iteration == Inf, max.it + 0.5, iteration - 0.5)",
+"xmax": "ifelse(iteration == Inf, Inf, iteration + 0.5)",
+"clickSelects": "iteration" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"alpha":      0.5,
+"clickSelects": "iteration" 
+},
+"types": {
+ "xmin": "numeric",
+"xmax": "numeric",
+"clickSelects": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+} 
+},
+"time": {
+ "variable": "iteration",
+"ms":      250,
+"sequence": [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100", "Inf" ] 
+},
+"duration": {
+ "iteration":      250 
+},
+"selectors": {
+ "set": {
+ "type": "multiple",
+"legend": true,
+"is.variable.value": false,
+"showSelected": true,
+"selected": [ "validation", "train" ],
+"levels": [ "validation", "train" ],
+"update": [
+ "geom1_point_regression",
+"geom8_line_cost",
+"geom9_point_cost",
+"geom10_point_cost" 
+] 
+},
+"model": {
+ "type": "multiple",
+"legend": true,
+"is.variable.value": false,
+"showSelected": true,
+"selected": [ "un-regularized", "min cost" ],
+"levels": [ "un-regularized", "min cost" ],
+"update": [
+ "geom9_point_cost",
+"geom10_point_cost" 
+] 
+},
+"iteration": {
+ "is.variable.value": false,
+"type": "single",
+"showSelected": true,
+"clickSelects": true,
+"selected": "1",
+"levels": [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100", "Inf" ],
+"update": [
+ "geom2_abline_regression",
+"geom6_segment_contours",
+"geom7_point_contours",
+"geom11_tallrect_cost" 
+],
+"duration":      250 
+} 
+},
+"plots": {
+ "regression": {
+ "panel_margin_lines":     0.27,
+"legend": {
+ "set": {
+ "guide": "legend",
+"geoms": "point",
+"title": "set",
+"class": "set",
+"selector": "set",
+"is_discrete": true,
+"legend_type": "colour",
+"text_size": "9.6pt",
+"title_size": "12pt",
+"entries": [
+ {
+ "pointcolour": "#66C2A5",
+"pointshape":       21,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"label": "train" 
+},
+{
+ "pointcolour": "#FC8D62",
+"pointshape":       21,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"label": "validation" 
+} 
+] 
+} 
+},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+       -2,
+      -1,
+       0,
+       1,
+       2 
+] 
+],
+"y": [
+ [
+       -1,
+       0,
+       1,
+       2,
+       3,
+       4 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+       -2,
+    -1.5,
+      -1,
+    -0.5,
+       0,
+     0.5,
+       1,
+     1.5,
+       2 
+] 
+],
+"y": [
+ [
+       -1,
+    -0.5,
+       0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5,
+       3,
+     3.5,
+       4 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+       -2,
+      -1,
+       0,
+       1,
+       2 
+],
+"xlab": [
+ "-2",
+"-1",
+"0",
+"1",
+"2" 
+],
+"xrange": [ -2.391696, 2.225318 ],
+"xline": false,
+"xticks": true,
+"y": [
+       -1,
+       0,
+       1,
+       2,
+       3,
+       4 
+],
+"ylab": [
+ "-1",
+"0",
+"1",
+"2",
+"3",
+"4" 
+],
+"yrange": [ -1.48603,  4.03447 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "input/feature: temperature",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "output/label: ozone",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "-2",
+"-1",
+"0",
+"1",
+"2" 
+],
+"ylabs": [
+ "-1",
+"0",
+"1",
+"2",
+"3",
+"4" 
+],
+"title": "Linear regression model",
+"title_size": "14.4pt",
+"options": {
+ "width":      400,
+"height":      300 
+},
+"geoms": [
+ "geom1_point_regression",
+"geom2_abline_regression" 
+] 
+},
+"contours": {
+ "panel_margin_lines":     0.27,
+"legend": {
+ "cost": {
+ "guide": "legend",
+"geoms": "path",
+"title": "cost",
+"class": "cost",
+"selector": null,
+"is_discrete": false,
+"legend_type": "colour",
+"text_size": "9.6pt",
+"title_size": "12pt",
+"entries": [
+ {
+ "pathcolour": "#FFDBCE",
+"pathweight":        1,
+"pathsize":      0.5,
+"pathlinetype":        1,
+"label": "0.5" 
+},
+{
+ "pathcolour": "#FFA68B",
+"pathweight":        1,
+"pathsize":      0.5,
+"pathlinetype":        1,
+"label": "0.4" 
+},
+{
+ "pathcolour": "#FF6C4B",
+"pathweight":        1,
+"pathsize":      0.5,
+"pathlinetype":        1,
+"label": "0.3" 
+},
+{
+ "pathcolour": "#FF0000",
+"pathweight":        1,
+"pathsize":      0.5,
+"pathlinetype":        1,
+"label": "0.2" 
+} 
+] 
+} 
+},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+     -0.2,
+    -0.1,
+       0,
+     0.1 
+] 
+],
+"y": [
+ [
+    -0.25,
+       0,
+    0.25,
+     0.5,
+    0.75,
+       1 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+     -0.2,
+   -0.15,
+    -0.1,
+   -0.05,
+       0,
+    0.05,
+     0.1 
+] 
+],
+"y": [
+ [
+    -0.25,
+  -0.125,
+       0,
+   0.125,
+    0.25,
+   0.375,
+     0.5,
+   0.625,
+    0.75,
+   0.875,
+       1 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+     -0.2,
+    -0.1,
+       0,
+     0.1 
+],
+"xlab": [
+ "-0.2",
+"-0.1",
+"0.0",
+"0.1" 
+],
+"xrange": [   -0.215,    0.115 ],
+"xline": false,
+"xticks": true,
+"y": [
+    -0.25,
+       0,
+    0.25,
+     0.5,
+    0.75,
+       1 
+],
+"ylab": [
+ "-0.25",
+"0.00",
+"0.25",
+"0.50",
+"0.75",
+"1.00" 
+],
+"yrange": [    -0.26,     1.06 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "intercept",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "slope",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "-0.2",
+"-0.1",
+"0.0",
+"0.1" 
+],
+"ylabs": [
+ "-0.25",
+"0.00",
+"0.25",
+"0.50",
+"0.75",
+"1.00" 
+],
+"title": "Level curves of mean squared error",
+"title_size": "14.4pt",
+"options": {
+ "width":      400,
+"height":      300 
+},
+"geoms": [
+ "geom3_contour_contours",
+"geom4_point_contours",
+"geom5_path_contours",
+"geom6_segment_contours",
+"geom7_point_contours" 
+] 
+},
+"cost": {
+ "panel_margin_lines":     0.27,
+"legend": {
+ "set": {
+ "guide": "legend",
+"geoms": [ "path", "point", "point" ],
+"title": "set",
+"class": "set",
+"selector": "set",
+"is_discrete": true,
+"legend_type": "colour",
+"text_size": "9.6pt",
+"title_size": "12pt",
+"entries": [
+ {
+ "pathcolour": "#66C2A5",
+"pathsize":      0.5,
+"pathlinetype":        1,
+"label": "train",
+"pointcolour": "#66C2A5",
+"pointshape":       21,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"pathfill": "#FFFFFF",
+"pointfill": "#FFFFFF" 
+},
+{
+ "pathcolour": "#FC8D62",
+"pathsize":      0.5,
+"pathlinetype":        1,
+"label": "validation",
+"pointcolour": "#FC8D62",
+"pointshape":       21,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"pathfill": "#FFFFFF",
+"pointfill": "#FFFFFF" 
+} 
+] 
+},
+"model": {
+ "guide": "legend",
+"geoms": [ "point", "point" ],
+"title": "model",
+"class": "model",
+"selector": "model",
+"is_discrete": true,
+"legend_type": "fill",
+"text_size": "9.6pt",
+"title_size": "12pt",
+"entries": [
+ {
+ "pointfill": "#FFFFFF",
+"pointshape":       21,
+"pointcolour": "#000000",
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"label": "min cost" 
+},
+{
+ "pointfill": "#000000",
+"pointshape":       21,
+"pointcolour": "#000000",
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"label": "un-regularized" 
+} 
+] 
+} 
+},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        0,
+      25,
+      50,
+      75,
+     100 
+] 
+],
+"y": [
+ [
+      0.2,
+     0.3,
+     0.4,
+     0.5,
+     0.6 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        0,
+    12.5,
+      25,
+    37.5,
+      50,
+    62.5,
+      75,
+    87.5,
+     100 
+] 
+],
+"y": [
+ [
+      0.2,
+    0.25,
+     0.3,
+    0.35,
+     0.4,
+    0.45,
+     0.5,
+    0.55,
+     0.6 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+        0,
+      25,
+      50,
+      75,
+     100 
+],
+"xlab": [
+ "0",
+"25",
+"50",
+"75",
+"100" 
+],
+"xrange": [     -4.5,    105.5 ],
+"xline": false,
+"xticks": true,
+"y": [
+      0.2,
+     0.3,
+     0.4,
+     0.5,
+     0.6 
+],
+"ylab": [
+ "0.2",
+"0.3",
+"0.4",
+"0.5",
+"0.6" 
+],
+"yrange": [ 0.1804141, 0.6071979 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "iteration",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "cost",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "0",
+"25",
+"50",
+"75",
+"100" 
+],
+"ylabs": [
+ "0.2",
+"0.3",
+"0.4",
+"0.5",
+"0.6" 
+],
+"title": "Train/validation error, select iteration and step size",
+"title_size": "14.4pt",
+"options": {
+ "width":      600,
+"height":      300 
+},
+"geoms": [
+ "geom8_line_cost",
+"geom9_point_cost",
+"geom10_point_cost",
+"geom11_tallrect_cost" 
+] 
+} 
+},
+"title": "Gradient descent for 1d linear regression in ozone data",
+"source": "https://github.com/tdhock/cs499-spring2019/blob/master/2019-02-05-linear-regression/viz.R" 
+}

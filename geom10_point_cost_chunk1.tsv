@@ -1,0 +1,3 @@
+colour	fill	x	y	showSelectedlegendcolour	showSelectedlegendfill
+#FC8D62	#FFFFFF	100	0.327421078904154	validation	min cost
+#66C2A5	#FFFFFF	100	0.199814891310806	train	min cost
